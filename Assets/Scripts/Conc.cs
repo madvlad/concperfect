@@ -4,8 +4,9 @@ using System.Collections;
 public class Conc : MonoBehaviour {
     public AudioClip timerSFX;
     public AudioClip explodeSFX;
+    public float timer = 4.0f;
 	void Start () {
-        Invoke("Explode", 4.0f);
+        Invoke("Explode", timer);
         if (timerSFX)
         {
             if (gameObject.GetComponent<AudioSource>())
@@ -20,7 +21,7 @@ public class Conc : MonoBehaviour {
 
     void Explode()
     {
-        Invoke("Destroy", 4.0f);
+        Invoke("Destroy", timer);
         gameObject.GetComponent<MeshRenderer>().enabled = false;
         EnactPush();
         PlayExplosionSound();
@@ -33,7 +34,6 @@ public class Conc : MonoBehaviour {
         {
             if(hit.CompareTag("Player"))
             {
-                Debug.Log("Hit player!");
                 var receiver = hit.GetComponent<ImpactReceiver>();
                 if (receiver)
                 {
@@ -41,7 +41,6 @@ public class Conc : MonoBehaviour {
                     var force = Mathf.Clamp(250.0f, 0, 250.0f);
                     receiver.AddImpact(dir, force);
                 }
-                //hit.GetComponent<Rigidbody>().AddExplosionForce(500.0f, transform.position, 5.0f, 1.0f);
             }
         }
     }
