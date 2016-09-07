@@ -13,7 +13,6 @@ public class Concer : MonoBehaviour {
         if (Input.GetButtonDown("Conc"))
         {
             primed = true;
-            timer -= Time.deltaTime;
             concInstance = Instantiate(concPrefab, transform.position, transform.rotation) as GameObject;
             if (!concInstance.GetComponent<Rigidbody>()) { concInstance.AddComponent<Rigidbody>(); }
             concInstance.GetComponent<Rigidbody>().useGravity = false;
@@ -22,7 +21,7 @@ public class Concer : MonoBehaviour {
         }
 	    if (primed && !Input.GetButton("Conc"))
         {
-            if (concPrefab)
+            if (concPrefab && !concInstance.GetComponent<Conc>().exploded)
             {
                 concInstance.transform.position = transform.position + transform.forward;
                 concInstance.GetComponent<BoxCollider>().enabled = true;
@@ -30,7 +29,6 @@ public class Concer : MonoBehaviour {
                 concInstance.GetComponent<Rigidbody>().useGravity = true;
                 concInstance.GetComponent<Rigidbody>().AddForce(transform.forward * 8, ForceMode.Impulse);
                 primed = false;
-                timer = 4.0f;
             }
         } else if (primed)
         {

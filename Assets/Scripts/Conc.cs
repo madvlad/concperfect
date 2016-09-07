@@ -5,6 +5,7 @@ public class Conc : MonoBehaviour {
     public AudioClip timerSFX;
     public AudioClip explodeSFX;
     public float timer = 4.0f;
+    public bool exploded = false;
 	void Start () {
         Invoke("Explode", timer);
         if (timerSFX)
@@ -21,6 +22,7 @@ public class Conc : MonoBehaviour {
 
     void Explode()
     {
+        exploded = true;
         Invoke("Destroy", timer);
         gameObject.GetComponent<MeshRenderer>().enabled = false;
         EnactPush();
@@ -29,7 +31,7 @@ public class Conc : MonoBehaviour {
 
     void EnactPush()
     {
-        var colliders = Physics.OverlapSphere(transform.position, 5.0f);
+        var colliders = Physics.OverlapSphere(transform.position, 10.0f);
         foreach(var hit in colliders)
         {
             if(hit.CompareTag("Player"))

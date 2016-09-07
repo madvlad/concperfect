@@ -145,7 +145,7 @@ public class FirstPersonDrifter: MonoBehaviour
         {
             moveDirection.y -= (gravity / 2) * Time.deltaTime;
         }
- 
+
         // Move the controller, and set grounded true or false depending on whether we're standing on something
         grounded = (controller.Move(moveDirection * Time.deltaTime) & CollisionFlags.Below) != 0;
     }
