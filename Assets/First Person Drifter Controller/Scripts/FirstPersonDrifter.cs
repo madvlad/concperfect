@@ -141,10 +141,10 @@ public class FirstPersonDrifter: MonoBehaviour
         moveDirection.y -= (gravity / 2) * Time.deltaTime;
 
         // Elongate jump if player is still holding down the jump key
-        if (!Input.GetButton("Jump"))
-        {
-            moveDirection.y -= (gravity / 2) * Time.deltaTime;
-        }
+        //if (!Input.GetButton("Jump"))
+        //{
+        //    moveDirection.y -= (gravity / 2) * Time.deltaTime;
+        //}
 
         // Move the controller, and set grounded true or false depending on whether we're standing on something
         grounded = (controller.Move(moveDirection * Time.deltaTime) & CollisionFlags.Below) != 0;

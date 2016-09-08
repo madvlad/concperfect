@@ -18,7 +18,7 @@ public class Concer : MonoBehaviour {
         {
             if (timer <= 0)
             {
-                timer = 0.70f;
+                timer = 0.45f;
                 primed = true;
                 concInstance = Instantiate(concPrefab, transform.position, transform.rotation) as GameObject;
                 if (!concInstance.GetComponent<Rigidbody>()) { concInstance.AddComponent<Rigidbody>(); }

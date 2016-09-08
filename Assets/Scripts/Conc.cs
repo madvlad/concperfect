@@ -40,7 +40,16 @@ public class Conc : MonoBehaviour {
                 if (receiver)
                 {
                     var dir = hit.transform.position - transform.position;
-                    var force = Mathf.Clamp(250.0f, 0, 250.0f);
+                    float force;
+                    if (dir.magnitude == 0)
+                    {
+                        force = Mathf.Clamp(100.0f, 0, 100.0f);
+                        dir = hit.GetComponent<CharacterController>().velocity * 10;
+                    } else
+                    {
+                        force = Mathf.Clamp(100.0f, 0, 100.0f) * dir.magnitude;
+                    }
+                    Debug.Log(dir);
                     receiver.AddImpact(dir, force);
                 }
             }
