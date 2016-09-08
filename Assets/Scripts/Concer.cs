@@ -5,19 +5,27 @@ public class Concer : MonoBehaviour {
 
     public GameObject concPrefab;
     private bool primed = false;
-    private float timer = 4.0f;
+    private float timer = 0.0f;
     private GameObject concInstance;
 	
 	// Update is called once per frame
 	void Update () {
+        if (timer > 0)
+        {
+            timer -= Time.deltaTime;
+        }
         if (Input.GetButtonDown("Conc"))
         {
-            primed = true;
-            concInstance = Instantiate(concPrefab, transform.position, transform.rotation) as GameObject;
-            if (!concInstance.GetComponent<Rigidbody>()) { concInstance.AddComponent<Rigidbody>(); }
-            concInstance.GetComponent<Rigidbody>().useGravity = false;
-            concInstance.GetComponent<BoxCollider>().enabled = false;
-            concInstance.GetComponent<MeshRenderer>().enabled = false;
+            if (timer <= 0)
+            {
+                timer = 0.70f;
+                primed = true;
+                concInstance = Instantiate(concPrefab, transform.position, transform.rotation) as GameObject;
+                if (!concInstance.GetComponent<Rigidbody>()) { concInstance.AddComponent<Rigidbody>(); }
+                concInstance.GetComponent<Rigidbody>().useGravity = false;
+                concInstance.GetComponent<BoxCollider>().enabled = false;
+                concInstance.GetComponent<MeshRenderer>().enabled = false;
+            }
         }
 	    if (primed && !Input.GetButton("Conc"))
         {
