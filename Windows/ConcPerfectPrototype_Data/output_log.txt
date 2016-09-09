@@ -1,0 +1,80 @@
+Initialize engine version: 5.4.0f3 (a6d8d714de6f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
+    Vendor:   Intel
+    VRAM:     2103 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\dbohan\Documents\ConcPerfect\Windows\ConcPerfectPrototype_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\dbohan\Documents\ConcPerfect\Windows\ConcPerfectPrototype_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\dbohan\Documents\ConcPerfect\Windows\ConcPerfectPrototype_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\dbohan\Documents\ConcPerfect\Windows\ConcPerfectPrototype_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\dbohan\Documents\ConcPerfect\Windows\ConcPerfectPrototype_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\dbohan\Documents\ConcPerfect\Windows\ConcPerfectPrototype_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\dbohan\Documents\ConcPerfect\Windows\ConcPerfectPrototype_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\dbohan\Documents\ConcPerfect\Windows\ConcPerfectPrototype_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\dbohan\Documents\ConcPerfect\Windows\ConcPerfectPrototype_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\dbohan\Documents\ConcPerfect\Windows\ConcPerfectPrototype_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.053 seconds
+Platform assembly: C:\Users\dbohan\Documents\ConcPerfect\Windows\ConcPerfectPrototype_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\dbohan\Documents\ConcPerfect\Windows\ConcPerfectPrototype_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 5520x1761 at 0,-681
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 38.154522 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 2c9c -> priority: 1 
+(-0.2, 1.1, -0.1)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+(-1.1, 1.6, 0.2)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+(-0.2, 1.5, -0.1)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+(-0.2, 1.4, -0.1)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+(-1.1, 3.3, -0.2)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+(-0.1, 1.1, 3.4)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+(0.1, 4.0, 7.9)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+(0.0, 1.2, 0.2)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+(-0.1, 2.3, 1.2)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+(0.1, 1.3, 0.1)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+(0.0, 3.3, 0.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+(0.1, 1.5, 0.2)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+(0.2, 7.7, 0.9)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
