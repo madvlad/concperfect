@@ -39,7 +39,7 @@ public class FirstPersonDrifter: MonoBehaviour
     // Player must be grounded for at least this many physics frames before being able to jump again; set to 0 to allow bunny hopping
     public int antiBunnyHopFactor = 1;
  
-    private Vector3 moveDirection = Vector3.zero;
+    public Vector3 moveDirection = Vector3.zero;
     public bool grounded = false;
     private CharacterController controller;
     private Transform myTransform;
@@ -138,13 +138,13 @@ public class FirstPersonDrifter: MonoBehaviour
         }
 
         // Apply gravity
-        moveDirection.y -= (gravity / 2) * Time.deltaTime;
+        moveDirection.y -= gravity * Time.deltaTime;
 
         // Elongate jump if player is still holding down the jump key
-        //if (!Input.GetButton("Jump"))
-        //{
-        //    moveDirection.y -= (gravity / 2) * Time.deltaTime;
-        //}
+        if (!Input.GetButton("Jump"))
+        {
+            moveDirection.y -= gravity * Time.deltaTime;
+        }
 
         // Move the controller, and set grounded true or false depending on whether we're standing on something
         grounded = (controller.Move(moveDirection * Time.deltaTime) & CollisionFlags.Below) != 0;

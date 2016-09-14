@@ -16,65 +16,45 @@ Platform assembly: C:\Users\dbohan\Documents\ConcPerfect\Windows\ConcPerfectProt
 Loading C:\Users\dbohan\Documents\ConcPerfect\Windows\ConcPerfectPrototype_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\dbohan\Documents\ConcPerfect\Windows\ConcPerfectPrototype_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\dbohan\Documents\ConcPerfect\Windows\ConcPerfectPrototype_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.053 seconds
+- Completed reload, in  0.176 seconds
 Platform assembly: C:\Users\dbohan\Documents\ConcPerfect\Windows\ConcPerfectPrototype_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\dbohan\Documents\ConcPerfect\Windows\ConcPerfectPrototype_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 5520x1761 at 0,-681
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 38.154522 ms
+UnloadTime: 40.603584 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 2c9c -> priority: 1 
-(-0.2, 1.1, -0.1)
+  Thread -> id: 1218 -> priority: 1 
+(-0.2, 1.5, 0.0)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
-(-1.1, 1.6, 0.2)
+(-0.3, 2.5, 0.2)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
-(-0.2, 1.5, -0.1)
+(-0.6, 1.0, -0.4)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
-(-0.2, 1.4, -0.1)
+(-1.2, 1.4, 3.5)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
-(-1.1, 3.3, -0.2)
+(-0.3, 1.2, 0.0)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
-(-0.1, 1.1, 3.4)
+(0.2, 0.8, 1.7)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
-(0.1, 4.0, 7.9)
+(0.0, 1.5, 0.2)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
-(0.0, 1.2, 0.2)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-(-0.1, 2.3, 1.2)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-(0.1, 1.3, 0.1)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-(0.0, 3.3, 0.6)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-(0.1, 1.5, 0.2)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-(0.2, 7.7, 0.9)
+(0.3, 3.2, 0.6)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 

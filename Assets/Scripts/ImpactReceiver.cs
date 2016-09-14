@@ -12,6 +12,7 @@ public class ImpactReceiver : MonoBehaviour {
 	
     public void AddImpact(Vector3 dir, float force)
     {
+        character.GetComponent<FirstPersonDrifter>().moveDirection.y = 0;
         dir.Normalize();
         if (dir.y < 0)
         {
