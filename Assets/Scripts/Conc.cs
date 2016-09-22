@@ -49,7 +49,6 @@ public class Conc : MonoBehaviour {
                     {
                         force = Mathf.Clamp(100.0f, 0, 100.0f) * dir.magnitude;
                     }
-                    Debug.Log(dir);
                     receiver.AddImpact(dir, force);
                 }
             }
