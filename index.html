@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>ConcPerfect by madvlad</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <link rel="stylesheet" href="Play/TemplateData/style.css">
+    <link rel="shortcut icon" href="Play/TemplateData/favicon.ico" />
+    <script src="Play/TemplateData/UnityProgress.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body class="template">
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/madvlad/concperfect">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/madvlad/concperfect/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/madvlad/concperfect/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>ConcPerfect</h1>
+          <p>ConcPerfect Unity 3D</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/madvlad">madvlad</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+      </section>
+          <p class="header"><span>Unity WebGL Player | </span>ConcPerfect</p>
+          <div class="clear">
+            <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
+            <br>
+            <div class="logo"></div>
+            <div class="fullscreen"><img src="Play/TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
+            <div class="title">ConcPerfect</div>
+          </div>
+          <p class="footer">&laquo; created with <a href="http://unity3d.com/" title="Go to unity3d.com">Unity</a> &raquo;</p>
+          <script type='text/javascript'>
+        var Module = {
+          TOTAL_MEMORY: 268435456,
+          errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+          compatibilitycheck: null,
+          dataUrl: "Play/Release/WebGL.data",
+          codeUrl: "Play/Release/WebGL.js",
+          memUrl: "Play/Release/WebGL.mem",
+          
+        };
+      </script>
+      <script src="Play/Release/UnityLoader.js"></script>
+
+        </body>
+      </html>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+  </body>
+</html>

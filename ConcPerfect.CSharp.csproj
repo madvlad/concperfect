@@ -81,6 +81,7 @@
     <Compile Include="Assets\Scripts\Conc.cs" />
     <Compile Include="Assets\Scripts\Concer.cs" />
     <Compile Include="Assets\Scripts\Footsteps.cs" />
+    <Compile Include="Assets\Scripts\GameState.cs" />
     <Compile Include="Assets\Scripts\ImpactReceiver.cs" />
     <Compile Include="Assets\Scripts\Teleporter.cs" />
   </ItemGroup>
