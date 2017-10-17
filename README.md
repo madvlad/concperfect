@@ -1,3 +1,4 @@
 # concperfect
 WebGL: ConcPerfect Unity 3D
- Proof of concept
+
+Prototype of ConcPerfect 2017
